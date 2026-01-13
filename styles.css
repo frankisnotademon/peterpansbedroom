@@ -1,0 +1,50 @@
+body {
+    background-color: #020804;
+     font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header, main, nav {
+    border: #40590d solid 1px;
+    color: #798113;
+    max-width: 750px;
+}
+
+header {
+    font-size: xx-large;
+}
+
+ hr{
+        height: 1px;
+        background-color: #40590d;
+        border: none;
+    }
+
+img {
+    border: #798113 solid 3px;
+    border-radius: 10px;
+}
+
+.big {
+    max-width: 700px;
+    max-height: 400px;
+}
+
+.smaller {
+    max-width: 400px;
+    max-height: 300px;
+}
+
+a {
+    color: #798113;
+}
+
+footer {
+    color: #798113;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #40590d;
+}
