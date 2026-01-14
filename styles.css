@@ -3,27 +3,32 @@ body {
      font-family: "New Rocker", system-ui;
     font-weight: 400;
     font-style: normal;
+    overflow: auto;
+    display: grid;
 }
 
 header, main, nav {
     border: #40590d solid 1px;
     color: #798113;
-    max-width: 750px;
+    max-width: 55%;
+    margin: auto;
+    text-align: center;
 }
 
 header {
     font-size: xx-large;
 }
 
- hr{
-        height: 1px;
-        background-color: #40590d;
-        border: none;
-    }
+hr{
+    height: 1px;
+    background-color: #40590d;
+    border: none;
+}
 
 img {
     border: #798113 solid 3px;
     border-radius: 10px;
+    max-width: 65%;
 }
 
 .big {
@@ -42,9 +47,61 @@ a {
 
 footer {
     color: #798113;
+    margin: auto;
+    max-width: 55%;
+    text-align: center;
 }
 
 audio::-webkit-media-controls-play-button,
 audio::-webkit-media-controls-panel {
   background-color: #40590d;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: #40590d;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 6px;
+  border: 3px solid #40590d;
+  background-clip: padding-box;
+  -webkit-border-radius: 5px;
+  background-color: #020804;
+}
+
+.webrings_box {
+    overflow: auto;
+    float: right;
+    width: 15%;
+    height: 300px;
+    border: #40590d solid 1px;
+    color: #798113;
+    margin: 3%;
+    text-align: center;
+    transform: translateY(-150%);
+}
+
+.friends_box {
+    overflow: auto;
+    float: left;
+    width: 15%;
+    height: 300px;
+    border: #40590d solid 1px;
+    color: #798113;
+    margin: 3%;
+    text-align: center;
+    transform: translateY(-230%);
+}
+
+button {
+    font-family: "New Rocker", system-ui;
+    font-size: medium;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: #798113;
+    border-radius: 8%;
+    cursor: pointer;
+    border-style: solid;
+    color: #798113;
 }
