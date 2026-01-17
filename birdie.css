@@ -115,3 +115,15 @@ audio::-webkit-media-controls-play-button,
 audio::-webkit-media-controls-panel {
   background-color: #4a4e69;
 }
+
+.hidden_button {
+    font-family: "Indie Flower", cursive;
+    font-size: medium;
+    font-weight: bold;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 8%;
+    cursor: pointer;
+    border-style: solid;
+}
