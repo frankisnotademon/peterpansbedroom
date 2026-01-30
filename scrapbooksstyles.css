@@ -1,0 +1,19 @@
+body {
+    background-color: #AF8D86;
+}
+
+.page {
+    background-image: url("paper.jpg");
+    border: 3px tan solid;
+    border-radius: 10px;
+    height: 575px;
+    width: 1000px;
+    margin: 1%;
+    padding: 10px;
+}
+
+.title {
+    font-size: large;
+    text-decoration: underline;
+}
+
