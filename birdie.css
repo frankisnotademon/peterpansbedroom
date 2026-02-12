@@ -127,3 +127,12 @@ audio::-webkit-media-controls-panel {
     cursor: pointer;
     border-style: solid;
 }
+
+.valentines {
+    background-image: url("download\ \(2\).jpg");
+    border: rosybrown 3px dotted;
+    border-radius: 15px;
+    text-align: center;
+    background-size: auto;
+    background-size: 105%;
+}
