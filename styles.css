@@ -90,7 +90,7 @@ a {
 }
 
 .long-text {
-    background-color: rgb(109, 6, 6);
+    background-color: rgb(74, 5, 5);
     border: solid black 4px;
     overflow: scroll;
     padding: 20px;
@@ -105,7 +105,7 @@ hr {
 }
 
 .entry {
-    background-color: rgb(74, 5, 5);
+    background-color: rgb(109, 6, 6);
     border: 4px black solid;
     padding: 10px;
 }
